@@ -27,8 +27,8 @@ We're going to use the ```--api``` flag when building a new Rails application to
 
 ```
 $ gem install rails
-$ rails new cat_tinder --api -T --database=postgresql
-$ cd cat_tinder
+$ rails new cat_tinder_backend --api -T --database=postgresql
+$ cd cat_tinder_backend
 ```
 This gets the latest and greatest version of Rails, and generates a new Rails application configured to be used as an API.  the ```-T``` flag tells rails to skip adding the default Minitest framework, as we're going to use Rspec instead.
 
@@ -54,7 +54,7 @@ $ rspec spec
 
 Pending: (Failures listed here are expected and do not affect your suite's status)
 
-  1) Cat add some examples to (or delete) .../cat_tinder/spec/models/cat_spec.rb
+  1) Cat add some examples to (or delete) .../cat_tinder_backend/spec/models/cat_spec.rb
      # Not yet implemented
      # ./spec/models/cat_spec.rb:4
 
