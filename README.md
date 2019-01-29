@@ -369,6 +369,7 @@ Adding the controller code for this spec is as follows:
     render json: cat
   end
 
+  private
   # Handle strong parameters, so we are secure
   def cat_params
     params.require(:cat).permit(:name, :age, :enjoys)
